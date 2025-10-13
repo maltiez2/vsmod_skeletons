@@ -1,0 +1,27 @@
+{
+  "version": 0,
+  "patches": {
+    "other": {
+      "skeletons:config/customplayermodels/skeleton.json": {
+        "skeleton/ExtraTraits": "(remove_models_traits) ? empty_array : value",
+        "skeleton/AvailableClasses": "(remove_models_traits) ? empty_array : value"
+      }
+    },
+    "boolean": {
+      "skeletons:patches/model-traits.json": {
+        "0/enabled": "not(remove_models_traits)"
+      }
+    }
+  },
+  "constants": {
+    "empty_array": []
+  },
+  "settings": [
+    {
+      "code": "remove_models_traits",
+      "type": "boolean",
+      "ingui": "skeletons:setting-remove_models_traits",
+      "default": false
+    }
+  ]
+}

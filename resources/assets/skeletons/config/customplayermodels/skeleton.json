@@ -3,7 +3,7 @@
     "ShapePath": "skeletons:skeleton",
     "MainTextureCode": "bone-main",
 		"ModelSizeFactor": 0.9,
-		"ExtraTraits": [],
+		"ExtraTraits": ["skeletons-fragile", "skeletons-magicsustenance", "skeletons-lightbones", "skeletons-terribleforager", "skeletons-terriblehunter", "skeletons-co-magicbindedbones"],
 		"AvailableClasses": ["skeletons-commoner", "skeletons-archer", "skeletons-spearman", "skeletons-swordsman", "skeletons-smith"],
 		"ExclusiveClasses": ["skeletons-commoner", "skeletons-archer", "skeletons-spearman", "skeletons-swordsman", "skeletons-smith"],
 		"RemoveTags": ["seraph"],

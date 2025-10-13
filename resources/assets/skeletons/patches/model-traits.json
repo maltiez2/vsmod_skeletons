@@ -1,15 +1,1 @@
-﻿[
-  { "enabled": true, "op": "add", "file": "skeletons:config/customplayermodels/skeleton.json", "path": "/skeleton/ExtraTraits/-", "value": "skeletons-fragile" },
-  { "enabled": true, "op": "add", "file": "skeletons:config/customplayermodels/skeleton.json", "path": "/skeleton/ExtraTraits/-", "value": "skeletons-magicsustenance" },
-  { "enabled": true, "op": "add", "file": "skeletons:config/customplayermodels/skeleton.json", "path": "/skeleton/ExtraTraits/-", "value": "skeletons-lightbones" },
-  { "enabled": true, "op": "add", "file": "skeletons:config/customplayermodels/skeleton.json", "path": "/skeleton/ExtraTraits/-", "value": "skeletons-terribleforager" },
-  { "enabled": true, "op": "add", "file": "skeletons:config/customplayermodels/skeleton.json", "path": "/skeleton/ExtraTraits/-", "value": "skeletons-terriblehunter" },
-  {
-    "enabled": true,
-    "dependsOn": [{ "modid": "combatoverhaul" }],
-    "op": "add",
-    "file": "skeletons:config/customplayermodels/skeleton.json",
-    "path": "/skeleton/ExtraTraits/-",
-    "value": "skeletons-co-magicbindedbones"
-  }
-]
+﻿[{ "enabled": true, "dependsOn": [{ "modid": "combatoverhaul", "invert": true }], "op": "remove", "file": "skeletons:config/customplayermodels/skeleton.json", "path": "/skeleton/ExtraTraits/5" }]

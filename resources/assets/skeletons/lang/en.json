@@ -2,6 +2,8 @@
   "playermodel-skeleton": "Skeleton",
   "modeldesc-skeleton": "Human skeleton risen and bound by unknown magic. Remembrance of hunger drives it mad, dispelling magic that binds the bones forcing the skeleton to eat human food.",
 
+  "setting-remove_models_traits": "Comsetic only",
+
   "game:skinpart-skeleton-bonecolor": "Bone color",
 
   "game:skinpart-skeleton-ribcage": "Ribcage",
