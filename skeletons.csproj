@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Skeletons</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.0.3</ModVersion>
+    <ModVersion>0.1.0</ModVersion>
     <ModId>skeletons</ModId>
     <Description></Description>
     <Side>universal</Side>
@@ -60,7 +60,8 @@
 
   <!-- Project item includes -->
   <ItemGroup>
-    <Folder Include="resources\assets\skeletons\shapes\" />
+    <Folder Include="resources\assets\skeletons\shapes\parts\jaw\" />
+    <Folder Include="resources\assets\skeletons\shapes\parts\eyes\" />
   </ItemGroup>
 
   <!-- Formatting JSON files -->

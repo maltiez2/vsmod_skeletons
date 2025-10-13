@@ -10,8 +10,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"bone-skull-inside": "skeletons:bone-skull-inside",
-		"bone-main": "skeletons:bone/variant-0"
+		"bone-skull-inside": "bone-skull-inside",
+		"bone-main": "bone/variant-0"
 	},
 	"elements": [
 		{
@@ -59,7 +59,42 @@
 								"west": { "texture": "#bone-skull-inside", "uv": [ 2.5, 2.0, 6.5, 5.5 ] },
 								"up": { "texture": "#bone-main", "uv": [ 6.0, 11.0, 10.0, 11.5 ], "rotation": 90 },
 								"down": { "texture": "#bone-main", "uv": [ 6.0, 15.5, 10.0, 16.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-							}
+							},
+							"children": [
+								{
+									"name": "skull_back_0",
+									"from": [ -1.5, 0.0, 0.0 ],
+									"to": [ 0.5, 0.5, 4.0 ],
+									"renderPass": 1,
+									"rotationOrigin": [ 0.5, 0.0, 0.0 ],
+									"rotationZ": 14.0,
+									"faces": {
+										"north": { "texture": "#bone-main", "uv": [ 10.0, 11.5, 12.0, 12.0 ] },
+										"east": { "texture": "#bone-main", "uv": [ 6.0, 11.5, 10.0, 12.0 ] },
+										"south": { "texture": "#bone-main", "uv": [ 5.5, 11.5, 7.5, 12.0 ] },
+										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 6.5, 2.5 ] },
+										"up": { "texture": "#bone-skull-inside", "uv": [ 6.0, 11.0, 10.0, 13.0 ], "rotation": 90 },
+										"down": { "texture": "#bone-main", "uv": [ 5.5, 14.0, 9.5, 16.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									},
+									"children": [
+										{
+											"name": "skull_back_1",
+											"from": [ 0.0, 0.5, 0.0 ],
+											"to": [ 2.0, 1.0, 4.0 ],
+											"renderPass": 1,
+											"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+											"faces": {
+												"north": { "texture": "#bone-main", "uv": [ 10.0, 11.5, 12.0, 12.0 ] },
+												"east": { "texture": "#bone-main", "uv": [ 6.0, 11.5, 10.0, 12.0 ] },
+												"south": { "texture": "#bone-main", "uv": [ 5.5, 11.5, 7.5, 12.0 ] },
+												"west": { "texture": "#bone-skull-inside", "uv": [ 2.5, 2.0, 6.5, 2.5 ] },
+												"up": { "texture": "#bone-skull-inside", "uv": [ 6.0, 11.0, 10.0, 13.0 ], "rotation": 90 },
+												"down": { "texture": "#bone-main", "uv": [ 5.5, 14.0, 9.5, 16.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+											}
+										}
+									]
+								}
+							]
 						},
 						{
 							"name": "skull_right",
@@ -89,21 +124,6 @@
 										"west": { "texture": "#bone-main", "uv": [ 15.5, 11.0, 16.0, 11.5 ] },
 										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 11.5, 4.0 ], "rotation": 90 },
 										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-									}
-								},
-								{
-									"name": "skull_right_1",
-									"from": [ 2.0, -1.0, 0.0 ],
-									"to": [ 5.0, -0.5, 0.5 ],
-									"renderPass": 1,
-									"rotationOrigin": [ 2.0, -1.0, 0.0 ],
-									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 10.5, 15.0, 13.5, 15.5 ] },
-										"east": { "texture": "#bone-main", "uv": [ 13.0, 11.5, 13.5, 12.0 ] },
-										"south": { "texture": "#bone-skull-inside", "uv": [ 10.5, 11.0, 13.5, 11.5 ] },
-										"west": { "texture": "#bone-main", "uv": [ 15.5, 11.0, 16.0, 11.5 ] },
-										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 11.5, 3.0 ], "rotation": 90 },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 									}
 								}
 							]
@@ -137,209 +157,81 @@
 										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 11.5, 4.0 ], "rotation": 90 },
 										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 									}
-								},
-								{
-									"name": "skull_left_1",
-									"from": [ 2.0, -1.0, 0.0 ],
-									"to": [ 5.0, -0.5, 0.5 ],
-									"renderPass": 1,
-									"rotationOrigin": [ 2.0, -1.0, 0.0 ],
-									"faces": {
-										"north": { "texture": "#bone-skull-inside", "uv": [ 3.0, 11.0, 6.0, 11.5 ] },
-										"east": { "texture": "#bone-main", "uv": [ 5.5, 11.5, 6.0, 12.0 ] },
-										"south": { "texture": "#bone-main", "uv": [ 1.5, 15.0, 4.5, 15.5 ] },
-										"west": { "texture": "#bone-main", "uv": [ 0.0, 11.5, 0.5, 12.0 ] },
-										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 11.5, 3.0 ], "rotation": 90 },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-									}
 								}
 							]
 						},
 						{
 							"name": "skull_front",
-							"from": [ 0.0, 3.5, 0.5 ],
-							"to": [ 0.5, 4.5, 4.5 ],
+							"from": [ 0.0, 4.0, 0.5 ],
+							"to": [ 0.0, 4.0, 0.5 ],
 							"renderPass": 1,
-							"rotationOrigin": [ 0.0, 3.5, 0.5 ],
+							"rotationOrigin": [ 0.0, 4.0, 0.5 ],
 							"faces": {
-								"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 12.0 ] },
-								"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 9.5, 12.0 ] },
-								"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 12.0 ] },
-								"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 6.5, 3.0 ] },
-								"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 15.0, 0.5 ], "rotation": 90 },
-								"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+								"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
+								"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 6.0, 11.5 ] },
+								"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
+								"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 3.0, 2.5 ] },
+								"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 11.5, 0.5 ], "rotation": 90 },
+								"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 							},
 							"children": [
 								{
-									"name": "skull_front_0",
-									"from": [ 0.0, -1.0, 1.5 ],
-									"to": [ 0.5, 0.0, 2.5 ],
-									"renderPass": 1,
-									"rotationOrigin": [ 0.0, -1.0, 1.5 ],
-									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 12.0 ] },
-										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 6.5, 12.0 ] },
-										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 12.0 ] },
-										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 3.5, 3.0 ] },
-										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 12.0, 0.5 ], "rotation": 90 },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-									}
-								},
-								{
-									"name": "skull_front_1",
-									"from": [ 0.0, -1.5, 1.0 ],
-									"to": [ 0.5, -1.0, 3.0 ],
-									"renderPass": 1,
-									"rotationOrigin": [ 0.0, -1.5, 1.0 ],
-									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
-										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 7.5, 11.5 ] },
-										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
-										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 4.5, 2.5 ] },
-										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 13.0, 0.5 ], "rotation": 90 },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-									}
-								},
-								{
-									"name": "skull_front_2",
-									"from": [ 0.0, -2.0, 0.0 ],
-									"to": [ 0.5, -1.5, 1.5 ],
-									"renderPass": 1,
-									"rotationOrigin": [ 0.0, -2.0, 0.0 ],
-									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
-										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 7.0, 11.5 ] },
-										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
-										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 4.0, 2.5 ] },
-										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 12.5, 0.5 ], "rotation": 90 },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-									}
-								},
-								{
-									"name": "skull_front_3",
-									"from": [ 0.0, -2.0, 2.6 ],
-									"to": [ 0.5, -1.5, 4.1 ],
-									"renderPass": 1,
-									"rotationOrigin": [ 0.0, -2.0, 2.6 ],
-									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
-										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 7.0, 11.5 ] },
-										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
-										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 4.0, 2.5 ] },
-										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 12.5, 0.5 ], "rotation": 90 },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-									}
-								},
-								{
-									"name": "skull_front_4",
-									"from": [ 0.0, -2.5, 0.0 ],
-									"to": [ 0.5, -2.0, 1.0 ],
-									"renderPass": 1,
-									"rotationOrigin": [ 0.0, -2.5, 0.0 ],
-									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
-										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 6.5, 11.5 ] },
-										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
-										"west": { "texture": "#bone-main", "uv": [ 2.0, 4.0, 3.0, 4.5 ] },
-										"up": { "texture": "#bone-main", "uv": [ 12.0, 0.0, 13.0, 0.5 ], "rotation": 90 },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-									}
-								},
-								{
-									"name": "skull_front_5",
-									"from": [ 0.0, -2.5, 3.0 ],
-									"to": [ 0.5, -2.0, 4.0 ],
-									"renderPass": 1,
-									"rotationOrigin": [ 0.0, -2.5, 3.0 ],
-									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
-										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 6.5, 11.5 ] },
-										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
-										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 3.5, 2.5 ] },
-										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 12.0, 0.5 ], "rotation": 90 },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-									}
-								},
-								{
-									"name": "skull_front_6",
-									"from": [ 0.0, -3.0, 0.5 ],
-									"to": [ 0.5, -2.5, 3.5 ],
-									"renderPass": 1,
-									"rotationOrigin": [ 0.0, -3.0, 0.5 ],
-									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
-										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 8.5, 11.5 ] },
-										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
-										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 5.5, 2.5 ] },
-										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 14.0, 0.5 ], "rotation": 90 },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"name": "jaw_origin",
-					"from": [ 4.4, 0.5, 1.0 ],
-					"to": [ 4.4, 0.5, 1.0 ],
-					"rotationOrigin": [ 4.4, 0.5, 1.0 ],
-					"rotationZ": 12.0,
-					"faces": {
-					},
-					"children": [
-						{
-							"name": "jaw_0",
-							"from": [ 0.2, 0.0, 0.0 ],
-							"to": [ 3.2, 1.0, 4.0 ],
-							"rotationOrigin": [ 0.2, 0.0, 0.0 ],
-							"rotationY": -95.0,
-							"rotationZ": -15.0,
-							"faces": {
-							},
-							"children": [
-								{
-									"name": "jaw_1",
+									"name": "skull_front_7",
 									"from": [ 0.0, 0.0, 0.0 ],
-									"to": [ 0.5, 1.0, 4.0 ],
-									"rotationOrigin": [ 0.0, 0.0, 4.0 ],
-									"rotationY": 6.0,
+									"to": [ 0.5, 0.5, 1.5 ],
+									"renderPass": 1,
 									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
-										"east": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-										"south": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
-										"west": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-										"up": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 4.0 ] },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 4.0 ] }
+										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
+										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 7.0, 11.5 ] },
+										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
+										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 4.0, 2.5 ] },
+										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 12.5, 0.5 ], "rotation": 90 },
+										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 									}
 								},
 								{
-									"name": "jaw_2",
-									"from": [ 2.5, 0.0, 0.0 ],
-									"to": [ 3.0, 1.0, 4.0 ],
-									"rotationOrigin": [ 3.0, 0.0, 4.0 ],
-									"rotationY": -6.0,
+									"name": "skull_front_8",
+									"from": [ 0.0, 0.0, 2.5 ],
+									"to": [ 0.5, 0.5, 4.0 ],
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 2.5 ],
 									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
-										"east": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-										"south": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
-										"west": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-										"up": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 4.0 ] },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 4.0 ] }
+										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
+										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 7.0, 11.5 ] },
+										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
+										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 4.0, 2.5 ] },
+										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 12.5, 0.5 ], "rotation": 90 },
+										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 									}
 								},
 								{
-									"name": "jaw_3",
-									"from": [ 0.0, 0.0, 3.5 ],
-									"to": [ 3.0, 0.5, 4.0 ],
-									"rotationOrigin": [ 0.0, 0.0, 3.5 ],
+									"name": "skull_front_9",
+									"from": [ 0.0, -0.5, 0.0 ],
+									"to": [ 0.5, 0.0, 0.5 ],
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, -0.5, 0.0 ],
 									"faces": {
-										"north": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
-										"east": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-										"south": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
-										"west": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-										"up": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
-										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 3.0, 0.5 ] }
+										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
+										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 6.0, 11.5 ] },
+										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
+										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 3.0, 2.5 ] },
+										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 11.5, 0.5 ], "rotation": 90 },
+										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "skull_front_10",
+									"from": [ 0.0, -0.5, 3.5 ],
+									"to": [ 0.5, 0.0, 4.0 ],
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, -0.5, 3.5 ],
+									"faces": {
+										"north": { "texture": "#bone-main", "uv": [ 3.0, 11.0, 3.5, 11.5 ] },
+										"east": { "texture": "#bone-skull-inside", "uv": [ 5.5, 11.0, 6.0, 11.5 ] },
+										"south": { "texture": "#bone-main", "uv": [ 8.0, 11.0, 8.5, 11.5 ] },
+										"west": { "texture": "#bone-main", "uv": [ 2.5, 2.0, 3.0, 2.5 ] },
+										"up": { "texture": "#bone-main", "uv": [ 11.0, 0.0, 11.5, 0.5 ], "rotation": 90 },
+										"down": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 									}
 								}
 							]

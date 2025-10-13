@@ -10,10 +10,10 @@
 		"AddTags": ["skeleton", "undead"],
     "SkinnableParts": [
 			{
-				"code": "bonecolor",
+				"code": "skeleton-bonecolor",
 				"type": "texture", 
 				"textureTarget": "bone-main",
-				"targetSkinParts": ["base", "skull", "ribcage"],
+				"targetSkinParts": ["base", "skeleton-skull", "skeleton-ribcage", "skeleton-jaw"],
 				"overlayTexture": false,
 				"textureTemplate": "skeletons:bone/variant-{code}",
 				"variants": [
@@ -52,7 +52,6 @@
 				"code": "voicepitch",
 				"type": "voice",
 				"useDropDown": true,
-				"colbreak": true,
 				"variants": [
 					{ "code": "verylow" },
 					{ "code": "low" },
@@ -61,17 +60,100 @@
 				]
 			},
 			{
-				"code": "skull",
+				"code": "skeleton-eyecolor",
+				"type": "texture",
+				"textureTarget": "bone-eyes",
+				"targetSkinParts": ["skeleton-eyes"],
+				"overlayTexture": false,
+				"colbreak": true,
+				"variants": [
+					{ "code": "acid-green", "texture": "skeletons:eyes/acid-green" },
+					{ "code": "amethyst", "texture": "skeletons:eyes/amethyst" },
+					{ "code": "aquamarine", "texture": "skeletons:eyes/aquamarine" },
+					{ "code": "azure", "texture": "skeletons:eyes/azure" },
+					{ "code": "bismuth", "texture": "skeletons:eyes/bismuth" },
+					{ "code": "bitter-lemon", "texture": "skeletons:eyes/bitter-lemon" },
+					{ "code": "black", "texture": "skeletons:eyes/black" },
+					{ "code": "blackopal", "texture": "skeletons:eyes/blackopal" },
+					{ "code": "blight", "texture": "skeletons:eyes/blight" },
+					{ "code": "cadmium-orange", "texture": "skeletons:eyes/cadmium-orange" },
+					{ "code": "citrine", "texture": "skeletons:eyes/citrine" },
+					{ "code": "citron", "texture": "skeletons:eyes/citron" },
+					{ "code": "corundum", "texture": "skeletons:eyes/corundum" },
+					{ "code": "dark-green", "texture": "skeletons:eyes/dark-green" },
+					{ "code": "diamond", "texture": "skeletons:eyes/diamond" },
+					{ "code": "forest-green", "texture": "skeletons:eyes/forest-green" },
+					{ "code": "goldenrod", "texture": "skeletons:eyes/goldenrod" },
+					{ "code": "jade", "texture": "skeletons:eyes/jade" },
+					{ "code": "jonas", "texture": "skeletons:eyes/jonas" },
+					{ "code": "lavander", "texture": "skeletons:eyes/lavander" },
+					{ "code": "malachite", "texture": "skeletons:eyes/malachite" },
+					{ "code": "mantis", "texture": "skeletons:eyes/mantis" },
+					{ "code": "midnight", "texture": "skeletons:eyes/midnight" },
+					{ "code": "onyx", "texture": "skeletons:eyes/onyx" },
+					{ "code": "opal", "texture": "skeletons:eyes/opal" },
+					{ "code": "pearlpink", "texture": "skeletons:eyes/pearlpink" },
+					{ "code": "phthalo-blue", "texture": "skeletons:eyes/phthalo-blue" },
+					{ "code": "purple", "texture": "skeletons:eyes/purple" },
+					{ "code": "quartzrose", "texture": "skeletons:eyes/quartzrose" },
+					{ "code": "rot", "texture": "skeletons:eyes/rot" },
+					{ "code": "ruby", "texture": "skeletons:eyes/ruby" },
+					{ "code": "sand", "texture": "skeletons:eyes/sand" },
+					{ "code": "sapphire", "texture": "skeletons:eyes/sapphire" },
+					{ "code": "smokyquartz", "texture": "skeletons:eyes/smokyquartz" },
+					{ "code": "topaz", "texture": "skeletons:eyes/topaz" },
+					{ "code": "tourmaline", "texture": "skeletons:eyes/tourmaline" },
+					{ "code": "white", "texture": "skeletons:eyes/white" }
+				]
+			},
+			{
+				"code": "skeleton-eyes",
+				"type": "shape",
+				"shapeTemplate": { "base": "skeletons:parts/eyes/variant-{code}" },
+				"variants": [
+					{ "code": "0"},
+					{ "code": "1"},
+					{ "code": "2"},
+					{ "code": "3"},
+					{ "code": "4"},
+					{ "code": "5"},
+					{ "code": "6"},
+					{ "code": "7"},
+					{ "code": "8"},
+					{ "code": "9"},
+					{ "code": "10"},
+					{ "code": "11"}
+				]
+			},
+			{
+				"code": "skeleton-skull",
 				"type": "shape",
 				"shapeTemplate": { "base": "skeletons:parts/skull/variant-{code}" },
 				"variants": [
 					{ "code": "0"},
 					{ "code": "1"},
-					{ "code": "2"}
+					{ "code": "2"},
+					{ "code": "3"},
+					{ "code": "4"},
+					{ "code": "5"},
+					{ "code": "6"},
+					{ "code": "7"}
 				]
 			},
 			{
-				"code": "ribcage",
+				"code": "skeleton-jaw",
+				"type": "shape",
+				"shapeTemplate": { "base": "skeletons:parts/jaw/variant-{code}" },
+				"variants": [
+					{ "code": "0"},
+					{ "code": "1"},
+					{ "code": "2"},
+					{ "code": "3"},
+					{ "code": "4"}
+				]
+			},
+			{
+				"code": "skeleton-ribcage",
 				"type": "shape",
 				"shapeTemplate": { "base": "skeletons:parts/ribcage/variant-{code}" },
 				"variants": [
@@ -79,7 +161,9 @@
 					{ "code": "1"},
 					{ "code": "2"},
 					{ "code": "3"},
-					{ "code": "4"}
+					{ "code": "4"},
+					{ "code": "5"},
+					{ "code": "6"}
 				]
 			}
     ]
