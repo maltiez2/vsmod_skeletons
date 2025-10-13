@@ -1,0 +1,154 @@
+[
+  {
+		"code": "skeletons-fragile",
+		"type": "negative",
+		"attributes": {
+			"maxhealthExtraPoints": -8.0
+		}
+	},
+	{
+		"code": "skeletons-magicsustenance",
+		"type": "positive",
+		"attributes": {
+			"hungerrate": -0.9
+		}
+	},
+	{
+		"code": "skeletons-lightbones",
+		"type": "mixed",
+		"attributes": {
+			"walkspeed": 0.2,
+			"armorWalkSpeedAffectedness": 0.3,
+			"jumpHeightMul": 0.25
+		}
+	},
+	{
+		"code": "skeletons-terribleforager",
+		"type": "negative",
+		"attributes": {
+			"forageDropRate": -0.5,
+			"wildCropDropRate": -0.5
+		}
+	},
+	{
+		"code": "skeletons-terriblehunter",
+		"type": "negative",
+		"attributes": {
+			"animalLootDropRate": -0.5,
+			"animalHarvestingTime": 0.5,
+			"animalSeekingRange": 0.5
+		}
+	},
+	{
+		"code": "skeletons-vanilla-archer",
+		"type": "mixed",
+		"attributes": {
+			"rangedWeaponsDamage": 0.35,
+			"rangedWeaponsAcc": 0.5,
+			"bowDrawingStrength": 0.35,
+			"meleeWeaponsDamage": -0.4
+		}
+	},
+	{
+		"code": "skeletons-vanilla-spearman",
+		"type": "mixed",
+		"attributes": {
+			"rangedWeaponsDamage": 0.3,
+			"meleeWeaponsDamage": 0.3,
+			"armorDurabilityLoss": 0.2,
+			"armorWalkSpeedAffectedness": 0.2
+		}
+	},
+	{
+		"code": "skeletons-vanilla-swordsman",
+		"type": "mixed",
+		"attributes": {
+			"meleeWeaponsDamage": 0.45,
+			"armorDurabilityLoss": -0.2,
+			"armorWalkSpeedAffectedness": -0.2,
+			"rangedWeaponsDamage": -0.4
+		}
+	},
+	{
+		"code": "skeletons-vanilla-smith",
+		"type": "mixed",
+		"attributes": {
+			"rangedWeaponsDamage": -0.2,
+			"meleeWeaponsDamage": -0.2,
+			"armorDurabilityLoss": -0.8,
+			"oreDropRate": 0.2,
+			"miningSpeedMul": 0.2
+		}
+	},
+	{
+		"code": "skeletons-co-magicbindedbones",
+		"type": "mixed",
+		"attributes": {
+			"manipulationSpeed": 0.3,
+			"playerFaceDamageFactor": -0.84,
+			"playerHeadDamageFactor": -0.5,
+			"playerNeckDamageFactor": 0.5,
+			"playerArmsDamageFactor": -0.5,
+			"playerHandsDamageFactor": -0.5,
+			"playerLegsDamageFactor": -0.5,
+			"playerFeetDamageFactor": -0.5
+		}
+	},
+	{
+		"code": "skeletons-co-archer",
+		"type": "mixed",
+		"attributes": {
+			"bowsProficiency": 0.6,
+			"crossbowsProficiency": -0.3,
+			"steadyAim": 0.5,
+			"meleeWeaponsDamage": -0.2
+		}
+	},
+	{
+		"code": "skeletons-co-crossbowman",
+		"type": "mixed",
+		"attributes": {
+			"crossbowsProficiency": 0.6,
+			"bowsProficiency": -0.3,
+			"steadyAim": 0.5,
+			"meleeWeaponsDamage": -0.2
+		}
+	},
+	{
+		"code": "skeletons-co-spearman",
+		"type": "mixed",
+		"attributes": {
+			"spearsProficiency": 0.4,
+			"javelinsProficiency": 0.4,
+			"armorWalkSpeedAffectedness": 0.1,
+			"oneHandedSwordsProficiency": -0.2,
+			"twoHandedSwordsProficiency": -0.2,
+			"steadyAim": -0.3
+		}
+	},
+	{
+		"code": "skeletons-co-swordsman",
+		"type": "mixed",
+		"attributes": {
+			"oneHandedSwordsProficiency": 0.4,
+			"twoHandedSwordsProficiency": 0.4,
+			"spearsProficiency": -0.2,
+			"javelinsProficiency": -0.2,
+			"armorDurabilityLoss": -0.1,
+			"armorWalkSpeedAffectedness": -0.2,
+			"steadyAim": -0.3
+		}
+	},
+	{
+		"code": "skeletons-co-smith",
+		"type": "mixed",
+		"attributes": {
+			"macesProficiency": 0.4,
+			"armorDurabilityLoss": -0.8,
+			"oreDropRate": 0.2,
+			"miningSpeedMul": 0.2,
+			"meleeWeaponsDamage": -0.3,
+			"steadyAim": -0.5
+		}
+	}
+]

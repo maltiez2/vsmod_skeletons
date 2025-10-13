@@ -1,0 +1,72 @@
+[
+  {
+		"enabled": true,
+		"code": "skeletons-commoner",
+		"traits": [],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-survivor" },
+			{ "type": "item", "code": "game:clothes-lowerbody-survivor" },
+			{ "type": "item", "code": "game:clothes-hand-survivor" },
+			{ "type": "item", "code": "game:clothes-foot-rusty-ankle-manacles" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-archer",
+		"traits": [],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
+			{ "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
+			{ "type": "item", "code": "game:clothes-upperbody-raw-hide-mantle" },
+			{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
+			{ "type": "item", "code": "game:clothes-neck-marketeer" },
+			{ "type": "item", "code": "game:clothes-waist-linen-rope" }
+		]
+	},
+	{
+		"enabled": false,
+		"code": "skeletons-crossbowman",
+		"traits": [],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-bamboo-conehat-large" },
+			{ "type": "item", "code": "game:clothes-shoulder-jord-robe" },
+			{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
+			{ "type": "item", "code": "game:clothes-face-survivor" },
+			{ "type": "item", "code": "game:clothes-waist-linen-rope" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-spearman",
+		"traits": [],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-rotwalker" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-rotwalker" },
+			{ "type": "item", "code": "game:clothes-foot-rotwalker" },
+			{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-swordsman",
+		"traits": [],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-face-corroded" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-rotwalker" },
+			{ "type": "item", "code": "game:clothes-foot-rotwalker" },
+			{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
+			{ "type": "item", "code": "game:clothes-neck-marketeer" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-smith",
+		"traits": ["improviser", "clothier", "technical", "bowyer"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
+			{ "type": "item", "code": "game:clothes-waist-heavy-tool-belt" },
+			{ "type": "item", "code": "game:clothes-neck-gear-amulet-rusty" },
+			{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" }
+		]
+	}
+]

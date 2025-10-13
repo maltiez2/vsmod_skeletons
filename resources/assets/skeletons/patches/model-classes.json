@@ -1,0 +1,3 @@
+[
+  { "enabled": true, "dependsOn": [{ "modid": "maltiezcrossbows" }], "op": "add", "file": "skeletons:config/customplayermodels/skeleton.json", "path": "/skeleton/ExclusiveClasses/-", "value": "skeletons-crossbowman" },
+]

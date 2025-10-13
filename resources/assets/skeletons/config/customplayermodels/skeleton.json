@@ -1,0 +1,87 @@
+{
+  "skeleton": {
+    "ShapePath": "skeletons:skeleton",
+    "MainTextureCode": "bone-main",
+		"ModelSizeFactor": 0.9,
+		"ExtraTraits": [],
+		"AvailableClasses": ["skeletons-commoner", "skeletons-archer", "skeletons-spearman", "skeletons-swordsman", "skeletons-smith"],
+		"ExclusiveClasses": ["skeletons-commoner", "skeletons-archer", "skeletons-spearman", "skeletons-swordsman", "skeletons-smith"],
+		"RemoveTags": ["seraph"],
+		"AddTags": ["skeleton", "undead"],
+    "SkinnableParts": [
+			{
+				"code": "bonecolor",
+				"type": "texture", 
+				"textureTarget": "bone-main",
+				"targetSkinParts": ["base", "skull", "ribcage"],
+				"overlayTexture": false,
+				"textureTemplate": "skeletons:bone/variant-{code}",
+				"variants": [
+					{ "code": "0" },
+					{ "code": "1" },
+					{ "code": "2" },
+					{ "code": "3" },
+					{ "code": "4" },
+					{ "code": "5" },
+					{ "code": "6" },
+					{ "code": "7" },
+					{ "code": "8" },
+					{ "code": "9" },
+					{ "code": "10" },
+					{ "code": "11" },
+					{ "code": "12" },
+					{ "code": "13" }
+				]
+			},
+			{
+				"code": "voicetype",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "altoflute", "sound": "game:sounds/voice/altoflute" },
+					{ "code": "harmonica", "sound": "game:sounds/voice/harmonica" },
+					{ "code": "oboe", "sound": "game:sounds/voice/oboe" },
+					{ "code": "clarinet", "sound": "game:sounds/voice/clarinet" },
+					{ "code": "accordion", "sound": "game:sounds/voice/accordion" },
+					{ "code": "trumpet", "sound": "game:sounds/voice/trumpet" },
+					{ "code": "sax", "sound": "game:sounds/voice/sax" },
+					{ "code": "tuba", "sound": "game:sounds/voice/tuba" }
+				]
+			},
+			{
+				"code": "voicepitch",
+				"type": "voice",
+				"useDropDown": true,
+				"colbreak": true,
+				"variants": [
+					{ "code": "verylow" },
+					{ "code": "low" },
+					{ "code": "medium" },
+					{ "code": "high" }
+				]
+			},
+			{
+				"code": "skull",
+				"type": "shape",
+				"shapeTemplate": { "base": "skeletons:parts/skull/variant-{code}" },
+				"variants": [
+					{ "code": "0"},
+					{ "code": "1"},
+					{ "code": "2"}
+				]
+			},
+			{
+				"code": "ribcage",
+				"type": "shape",
+				"shapeTemplate": { "base": "skeletons:parts/ribcage/variant-{code}" },
+				"variants": [
+					{ "code": "0"},
+					{ "code": "1"},
+					{ "code": "2"},
+					{ "code": "3"},
+					{ "code": "4"}
+				]
+			}
+    ]
+  }
+}

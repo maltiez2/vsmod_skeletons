@@ -1,0 +1,8 @@
+﻿[
+  { "dependsOn": [{ "modid": "maltiezcrossbows" }], "file": "skeletons:config/characterclasses", "op": "addEach", "path": "/2/enabled", "value": true },
+  { "dependsOn": [{ "modid": "combatoverhaul", "invert": true }], "file": "skeletons:config/characterclasses", "op": "addEach", "path": "/1/traits/-", "value": ["skeletons-vanilla-archer"] },
+  { "dependsOn": [{ "modid": "maltiezcrossbows" }], "file": "skeletons:config/characterclasses", "op": "addEach", "path": "/2/traits/-", "value": ["skeletons-co-crossbowman"] },
+  { "dependsOn": [{ "modid": "combatoverhaul", "invert": true }], "file": "skeletons:config/characterclasses", "op": "addEach", "path": "/3/traits/-", "value": ["skeletons-vanilla-spearman"] },
+  { "dependsOn": [{ "modid": "combatoverhaul", "invert": true }], "file": "skeletons:config/characterclasses", "op": "addEach", "path": "/4/traits/-", "value": ["skeletons-vanilla-swordsman"] },
+  { "dependsOn": [{ "modid": "combatoverhaul", "invert": true }], "file": "skeletons:config/characterclasses", "op": "addEach", "path": "/5/traits/-", "value": ["skeletons-vanilla-smith"] }
+]
