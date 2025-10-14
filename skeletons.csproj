@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Skeletons</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.2.4</ModVersion>
+    <ModVersion>0.2.5</ModVersion>
     <ModId>skeletons</ModId>
     <Description></Description>
     <Side>universal</Side>

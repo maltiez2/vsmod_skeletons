@@ -102,7 +102,7 @@
 				"code": "skeleton-eyecolor",
 				"type": "texture",
 				"textureTarget": "bone-eyes",
-				"targetSkinParts": ["skeleton-eyes"],
+				"targetSkinParts": ["skeleton-eyes", "skeleton-accessories"],
 				"overlayTexture": false,
 				"colbreak": true,
 				"variants": [
@@ -216,7 +216,8 @@
 				"shapeTemplate": { "base": "skeletons:parts/accessories/variant-{code}" },
 				"variants": [
 					{ "code": "0"},
-					{ "code": "1"}
+					{ "code": "1"},
+					{ "code": "2"}
 				]
 			},
 			{
