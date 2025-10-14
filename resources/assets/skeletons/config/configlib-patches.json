@@ -4,7 +4,8 @@
     "other": {
       "skeletons:config/customplayermodels/skeleton.json": {
         "skeleton/ExtraTraits": "(remove_models_traits) ? empty_array : value",
-        "skeleton/AvailableClasses": "(remove_models_traits) ? empty_array : value"
+        "skeleton/AvailableClasses": "(remove_models_traits) ? empty_array : value",
+        "skeleton/SkipClasses": "(remove_models_traits) ? skip_classes : value"
       }
     },
     "boolean": {
@@ -14,7 +15,8 @@
     }
   },
   "constants": {
-    "empty_array": []
+    "empty_array": [],
+    "skip_classes": ["skeletons-commoner", "skeletons-archer", "skeletons-crossbowman", "skeletons-spearman", "skeletons-swordsman", "skeletons-smith"]
   },
   "settings": [
     {
