@@ -56,6 +56,10 @@
   "game:skinpart-skeleton-eyes-15": "Brain & two ommatophores",
   "game:skinpart-skeleton-eyes-16": "Brain & five ommatophores",
 
+  "game:skinpart-voicetype-skeleton-xylophone": "Xylophone",
+  "game:skinpart-voicetype-skeleton-bonecrunch": "Bone crunch",
+  "game:skinpart-voicetype-skeleton-woodenmallet": "Wooden mallet",
+
   "game:skinpart-skeleton-metalcolor": "Metal",
   "game:skinpart-skeleton-metalcolor-bismuth": "Bismuth",
   "game:skinpart-skeleton-metalcolor-bismuthbronze": "Bismuth bronze",

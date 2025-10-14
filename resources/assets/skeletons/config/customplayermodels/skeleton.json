@@ -224,6 +224,9 @@
 				"type": "voice", 
 				"useDropDown": true,
 				"variants": [
+					{ "code": "skeleton-xylophone", "sound": "skeletons:sounds/voice/xylophone" },
+					{ "code": "skeleton-woodenmallet", "sound": "skeletons:sounds/voice/woodenmallet" },
+					{ "code": "skeleton-bonecrunch", "sound": "skeletons:sounds/voice/bonecrunch" },
 					{ "code": "altoflute", "sound": "game:sounds/voice/altoflute" },
 					{ "code": "harmonica", "sound": "game:sounds/voice/harmonica" },
 					{ "code": "oboe", "sound": "game:sounds/voice/oboe" },
