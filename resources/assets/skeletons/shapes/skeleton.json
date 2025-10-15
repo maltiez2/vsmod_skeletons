@@ -9,8 +9,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"bone-skull-inside": "skeletons:bone-skull-inside",
-		"bone-main": "skeletons:bone/variant-0"
+		"bone-skull-inside": "bone-skull-inside",
+		"bone-main": "bone/variant-0"
 	},
 	"elements": [
 		{

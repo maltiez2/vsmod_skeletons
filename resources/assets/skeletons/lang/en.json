@@ -5,7 +5,7 @@
   "setting-remove_models_traits": "Comsetic only",
 
   "game:skinpart-skeleton-bonecolor": "Bone color",
-  "game:skinpart-skeleton-skulliside": "Skull inside color",
+  "game:skinpart-skeleton-skullinside": "Skull inside color",
 
   "game:skinpart-skeleton-ribcage": "Ribcage",
   "game:skinpart-skeleton-ribcage-0": "Pristine",
@@ -37,6 +37,7 @@
   "game:skinpart-skeleton-accessories-0": "None",
   "game:skinpart-skeleton-accessories-1": "Nails",
   "game:skinpart-skeleton-accessories-2": "Ommatophore veins",
+  "game:skinpart-skeleton-accessories-3": "Chest root and veins",
 
   "game:skinpart-skeleton-eyes": "Eyes",
   "game:skinpart-skeleton-eyes-0": "None",

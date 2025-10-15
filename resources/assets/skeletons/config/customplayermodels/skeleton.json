@@ -35,7 +35,7 @@
 				]
 			},
 			{
-				"code": "skeleton-skulliside",
+				"code": "skeleton-skullinside",
 				"type": "texture", 
 				"textureTarget": "bone-skull-inside",
 				"targetSkinParts": ["base", "skeleton-skull", "skeleton-ribcage", "skeleton-jaw"],
@@ -217,7 +217,8 @@
 				"variants": [
 					{ "code": "0"},
 					{ "code": "1"},
-					{ "code": "2"}
+					{ "code": "2"},
+					{ "code": "3"}
 				]
 			},
 			{
