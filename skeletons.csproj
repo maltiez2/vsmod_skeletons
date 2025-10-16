@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Skeletons</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.2.7</ModVersion>
+    <ModVersion>0.2.9</ModVersion>
     <ModId>skeletons</ModId>
     <Description></Description>
     <Side>universal</Side>
@@ -18,7 +18,7 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <Dependencies Include="playermodellib" Version="1.0.21" />
+    <Dependencies Include="playermodellib" Version="1.1.0" />
   </ItemGroup>
 
   <!-- Project settings -->
