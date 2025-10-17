@@ -15,6 +15,7 @@
   "game:skinpart-skeleton-ribcage-4": "Missing",
   "game:skinpart-skeleton-ribcage-5": "Winged",
   "game:skinpart-skeleton-ribcage-6": "Curled",
+  "game:skinpart-skeleton-ribcage-7": "Tumors",
 
   "game:skinpart-skeleton-skull": "Skull",
   "game:skinpart-skeleton-skull-0": "Pristine",
@@ -28,7 +29,12 @@
   "game:skinpart-skeleton-skull-8": "Blown back",
   "game:skinpart-skeleton-skull-9": "Blown up",
   "game:skinpart-skeleton-skull-10": "Noseless",
-  "game:skinpart-skeleton-skull-11": "Minor tumors",
+  "game:skinpart-skeleton-skull-11": "Tumors",
+  "game:skinpart-skeleton-skull-12": "Hole (Tumors)",
+  "game:skinpart-skeleton-skull-13": "Faceless (Tumors)",
+  "game:skinpart-skeleton-skull-14": "Open (Tumors)",
+  "game:skinpart-skeleton-skull-15": "Blown back (Tumors)",
+  "game:skinpart-skeleton-skull-16": "Noseless (Tumors)",
 
   "game:skinpart-skeleton-jaw": "Jaw",
   "game:skinpart-skeleton-jaw-0": "Pristine",
