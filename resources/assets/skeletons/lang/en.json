@@ -25,6 +25,10 @@
   "game:skinpart-skeleton-skull-5": "Cracked open",
   "game:skinpart-skeleton-skull-6": "Blown out",
   "game:skinpart-skeleton-skull-7": "Blooming",
+  "game:skinpart-skeleton-skull-8": "Blown back",
+  "game:skinpart-skeleton-skull-9": "Blown up",
+  "game:skinpart-skeleton-skull-10": "Noseless",
+  "game:skinpart-skeleton-skull-11": "Minor tumors",
 
   "game:skinpart-skeleton-jaw": "Jaw",
   "game:skinpart-skeleton-jaw-0": "Pristine",
@@ -32,6 +36,8 @@
   "game:skinpart-skeleton-jaw-2": "Dislocated",
   "game:skinpart-skeleton-jaw-3": "Dropped",
   "game:skinpart-skeleton-jaw-4": "Split",
+  "game:skinpart-skeleton-jaw-5": "Mandibles",
+  "game:skinpart-skeleton-jaw-6": "Mandibles (Open)",
 
   "game:skinpart-skeleton-accessories": "Accessories",
   "game:skinpart-skeleton-accessories-0": "None",
@@ -42,6 +48,7 @@
   "game:skinpart-skeleton-accessories-2noglow": "(No glow) Ommatophore veins",
   "game:skinpart-skeleton-accessories-3noglow": "(No glow) Ommatophore veins and parasite",
   "game:skinpart-skeleton-accessories-4noglow": "(No glow) Parasite",
+  "game:skinpart-skeleton-accessories-5": "Tumors",
 
   "game:skinpart-skeleton-eyes": "Eyes",
   "game:skinpart-skeleton-eyes-0": "None",
