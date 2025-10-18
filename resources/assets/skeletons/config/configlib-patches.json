@@ -8,10 +8,26 @@
         "skeleton/SkipClasses": "(remove_models_traits) ? skip_classes : value"
       }
     },
+    "number": {
+      "skeletons:config/customplayermodels/skeleton.json": {
+        "skeleton/SizeRange/0": "skeleton_min_size_range",
+        "skeleton/SizeRange/1": "skeleton_max_size_range",
+        "skeleton/ModelSizeFactor": "skeleton_size_factor",
+        "skeleton/MaxCollisionBox/0": "skeleton_max_collision_box_horizontal",
+        "skeleton/MaxCollisionBox/1": "skeleton_max_collision_box_vetrical",
+        "skeleton/MaxEyeHeight": "skeleton_max_eye_height",
+        "skeleton/MinEyeHeight": "skeleton_min_eye_height"
+      }
+    },
     "boolean": {
       "skeletons:patches/model-traits.json": {
         "0/enabled": "not(remove_models_traits)"
-      }
+      },
+      "skeletons:config/customplayermodels/skeleton.json": {
+        "skeleton/ScaleColliderWithSizeHorizontally": "skeleton_scale_collider_horizontally",
+        "skeleton/ScaleColliderWithSizeVertically": "skeleton_scale_collider_vertically",
+        "skeleton/Enabled": "skeleton_enable_skeleton_model"
+      }      
     }
   },
   "constants": {
@@ -24,6 +40,100 @@
       "type": "boolean",
       "ingui": "skeletons:setting-remove_models_traits",
       "default": false
+    },
+    {
+      "code": "enable_skeleton_model",
+      "type": "boolean",
+      "ingui": "skeletons:setting-enable_skeleton_model",
+      "default": true
+    },
+    {
+      "code": "skeleton_min_size_range",
+      "type": "float",
+      "ingui": "skeletons:setting-skeleton_min_size_range",
+      "comment": "skeletons:setting-comment-skeleton_min_size_range",
+      "default": 0.9,
+      "range": {
+        "min": 0.1,
+        "max": 1.0
+      }
+    },
+    {
+      "code": "skeleton_max_size_range",
+      "type": "float",
+      "ingui": "skeletons:setting-skeleton_max_size_range",
+      "comment": "skeletons:setting-comment-skeleton_max_size_range",
+      "default": 1.1,
+      "range": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "code": "skeleton_size_factor",
+      "type": "float",
+      "ingui": "skeletons:setting-skeleton_size_factor",
+      "comment": "skeletons:setting-comment-skeleton_size_factor",
+      "default": 1.0,
+      "range": {
+        "min": 0.1,
+        "max": 3.0
+      }
+    },
+    {
+      "code": "skeleton_max_collision_box_vetrical",
+      "type": "float",
+      "ingui": "skeletons:setting-skeleton_max_collision_box_vetrical",
+      "comment": "skeletons:setting-comment-skeleton_max_collision_box_vetrical",
+      "default": 1.99,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "skeleton_max_collision_box_horizontal",
+      "type": "float",
+      "ingui": "skeletons:setting-skeleton_max_collision_box_horizontal",
+      "comment": "skeletons:setting-comment-skeleton_max_collision_box_horizontal",
+      "default": 0.80,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "skeleton_max_eye_height",
+      "type": "float",
+      "ingui": "skeletons:setting-skeleton_max_eye_height",
+      "comment": "skeletons:setting-comment-skeleton_max_eye_height",
+      "default": 1.95,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "skeleton_min_eye_height",
+      "type": "float",
+      "ingui": "skeletons:setting-skeleton_min_eye_height",
+      "default": 0.1,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "skeleton_scale_collider_horizontally",
+      "type": "boolean",
+      "ingui": "skeletons:setting-skeleton_scale_collider_horizontally",
+      "default": true
+    },
+    {
+      "code": "skeleton_scale_collider_vertically",
+      "type": "boolean",
+      "ingui": "skeletons:setting-skeleton_scale_collider_vertically",
+      "default": true
     }
   ]
 }
