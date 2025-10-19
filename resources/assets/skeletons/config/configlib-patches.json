@@ -26,7 +26,7 @@
       "skeletons:config/customplayermodels/skeleton.json": {
         "skeleton/ScaleColliderWithSizeHorizontally": "skeleton_scale_collider_horizontally",
         "skeleton/ScaleColliderWithSizeVertically": "skeleton_scale_collider_vertically",
-        "skeleton/Enabled": "skeleton_enable_skeleton_model"
+        "skeleton/Enabled": "enable_skeleton_model"
       }      
     }
   },
