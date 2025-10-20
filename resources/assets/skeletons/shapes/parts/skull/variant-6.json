@@ -24,10 +24,10 @@
 			"children": [
 				{
 					"name": "skull_0",
-					"from": [ 0.2, 0.0, 0.0 ],
-					"to": [ 5.2, 5.0, 5.0 ],
+					"from": [ 0.2, -0.5, 0.0 ],
+					"to": [ 5.2, 4.5, 5.0 ],
 					"renderPass": 1,
-					"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.2, -0.5, 0.0 ],
 					"faces": {
 					},
 					"children": [
@@ -261,7 +261,6 @@
 											"to": [ 0.0, 0.5, 0.5 ],
 											"renderPass": 1,
 											"rotationOrigin": [ 0.0, 0.5, 0.5 ],
-											"rotationX": 0.0,
 											"rotationY": -10.0,
 											"rotationZ": 9.0,
 											"faces": {
@@ -437,7 +436,6 @@
 											"to": [ 0.0, 0.5, 0.5 ],
 											"renderPass": 1,
 											"rotationOrigin": [ 0.0, 0.5, 0.0 ],
-											"rotationX": 0.0,
 											"rotationY": 18.0,
 											"rotationZ": 10.0,
 											"faces": {

@@ -16,8 +16,9 @@
 		{
 			"name": "Jaw",
 			"stepParentName": "Head",
-			"from": [ 0.0, 0.0, 0.0 ],
-			"to": [ 0.0, 0.0, 0.0 ],
+			"from": [ 0.0, -0.5, 0.0 ],
+			"to": [ 0.0, -0.5, 0.0 ],
+			"rotationOrigin": [ 0.0, -0.5, 0.0 ],
 			"faces": {
 			},
 			"children": [
@@ -97,7 +98,4 @@
 				}
 			]
 		}
-	],
-	"animations": [
-	]
-}
+	]}

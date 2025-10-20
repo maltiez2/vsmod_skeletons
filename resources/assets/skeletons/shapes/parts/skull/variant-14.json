@@ -24,10 +24,10 @@
 			"children": [
 				{
 					"name": "skull_0",
-					"from": [ 0.2, 0.0, 0.0 ],
-					"to": [ 5.2, 5.0, 5.0 ],
+					"from": [ 0.2, -0.5, 0.0 ],
+					"to": [ 5.2, 4.5, 5.0 ],
 					"renderPass": 1,
-					"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.2, -0.5, 0.0 ],
 					"faces": {
 					},
 					"children": [
@@ -437,10 +437,9 @@
 				},
 				{
 					"name": "tumors_skull",
-					"from": [ 0.0, 0.0, 0.0 ],
-					"to": [ 0.0, 0.0, 0.0 ],
-					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
-					"rotationZ": 0.0,
+					"from": [ 0.0, -0.5, 0.0 ],
+					"to": [ 0.0, -0.5, 0.0 ],
+					"rotationOrigin": [ 0.0, -0.5, 0.0 ],
 					"faces": {
 					},
 					"children": [
@@ -1053,9 +1052,9 @@
 								},
 								{
 									"name": "skull_lump_10",
-									"from": [ 0.0, 4.0, 1.0 ],
-									"to": [ 0.4, 4.5, 2.5 ],
-									"rotationOrigin": [ 0.0, 4.0, 1.0 ],
+									"from": [ 0.0, 4.0, 0.6 ],
+									"to": [ 0.4, 4.6, 2.1 ],
+									"rotationOrigin": [ 0.0, 4.0, 0.6 ],
 									"faces": {
 										"north": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
 										"east": { "texture": "#bone-main", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },

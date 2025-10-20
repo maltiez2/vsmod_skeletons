@@ -259,7 +259,7 @@
   "setting-skeleton_min_size_range": "Min model size",
   "setting-skeleton_max_size_range": "Max model size",
   "setting-skeleton_size_factor": "Overall model size factor",
-  "setting-skeleton_max_collision_box_vetrical": "Max collision box (vetical)",
+  "setting-skeleton_max_collision_box_vetrical": "Max collision box (vertical)",
   "setting-skeleton_max_collision_box_horizontal": "Max collision box (horizontal)",
   "setting-skeleton_max_eye_height": "Max eye height",
   "setting-skeleton_min_eye_height": "Min eye height",
@@ -267,10 +267,10 @@
   "setting-skeleton_scale_collider_vertically": "Scale collider with size (vertical)",
   "setting-enable_skeleton_model": "Enable skeleton model",
 
-  "setting-comment-skeleton_min_size_range": "Min model size player can choose when cerating character.",
+  "setting-comment-skeleton_min_size_range": "Min model size player can choose when creating character.",
   "setting-comment-skeleton_max_size_range": "Max model size player can choose when creating character.",
   "setting-comment-skeleton_size_factor": "Scales player model independently of model size selected when creating character.",
-  "setting-comment-skeleton_max_collision_box_vetrical": "Restricts collision box height, is used to allow player to pass under 2 blocks high opennings. Without restricton if collider is heigher thaSn 2.0, player will have to crouch to go though doors.",
-  "setting-comment-skeleton_max_collision_box_horizontal": "Restricts collision box width, to allow player to squize into 1 blocks wide opennings.",
-  "setting-comment-skeleton_max_eye_height": "Restricts eye height, if eye height is higher than 2.0, player camera will clip into blocks when passing rhough 2 blocks high opennings."
+  "setting-comment-skeleton_max_collision_box_vetrical": "Restricts collision box height, is used to allow player to pass under 2 blocks high openings. Without restriction if collider is heifer than 2.0, player will have to crouch to go through doors.",
+  "setting-comment-skeleton_max_collision_box_horizontal": "Restricts collision box width, to allow player to squeeze into 1 block wide openings.",
+  "setting-comment-skeleton_max_eye_height": "Restricts eye height, if eye height is higher than 2.0, player camera will clip into blocks when passing through 2 blocks high openings."
 }

@@ -1,7 +1,7 @@
 {
 	"editor": {
 		"backDropShape": "E:/Programs/VSModelCreator/skeleton-skullful",
-		"collapsedPaths": ",Root/UpperArmLAccessories,Root/FemurR/TibiaR,Root/FemurL,Root/origin/Spine/Cube16,Root/UpperFootRAccessories,Root/root/LowerTorso/UpperFootR/LowerFootR/LowerFootRBones2,Root/root/LowerTorso/UpperTorso/UpperArmR,Root/root/LowerTorso/Spine,Root/root/LowerTorso/UpperTorso/UpperArmL,Root/UpperArmLAccessories/nail_7,Root/origin/Spine/FemurR,Root/UpperArmRAccessories/nail_0,Root/UpperArmRAccessories/nail_1,Root/UpperArmLAccessories/nail_6,Root/UpperArmRAccessories/nail_3,Root/origin/Spine,Root/root/LowerTorso/UpperTorso/Neck,Root/root/LowerTorso/UpperFootR/UpperFootR_bones,Root/origin/Spine/FemurL,Root/NeckAccessories/nail_origin_9/nail_9,Root/UpperArmRAccessories/nail_8,Root/root/LowerTorso/UpperTorso/UpperArmR/UpperArmRBones2,Root/origin/Spine/Cube33,Root/UpperTorsoAccessories/nail_5,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0,Root/UpperArmRAccessories,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_1,Root/root/LowerTorso/UT_bones_2,Root/UpperTorsoAccessories/nail_1,Root/HeadAccessories,Root/origin/Spine/HipboneR,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_ribs_1/UT_bones_10,Root/origin/Spine/HipboneL,Root/FemurR/Cube51,Root/origin/Spine/Cube9,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_2/ShoulderR2,Root/ArmboneL/ForearmL,Root/root/LowerTorso/UpperTorso/UpperArmR/LowerArmR/LowerArmRBones2,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/RibCage,Root/UpperFootRAccessories/nail_origin_16,Root/UpperFootRAccessories/nail_origin_15,Root/UpperFootRAccessories/nail_origin_14,Root/LowerTorsoAccessories/nail_origin_20,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_bones_1,Root/origin/Spine/Cube43,Root/LowerArmRAccessories,Root/origin/Spine/Cube44,Root/origin/Spine/ArmboneR,Root/origin/Spine/ShoulderL,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_bones_3,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_bones_7,Root/origin/Spine/ShoulderR,Root/origin/Spine/ArmboneL,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_bones_5,Root/NeckAccessories/nail_origin_12,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_bones_9,Root/root/LowerTorso/UpperFootL,Root/root/LowerTorso/UpperFootR,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/ShoulderL,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/RibCage2/UT_ribs_2,Root/origin/Spine/Cube10,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/ShoulderR,Root/origin/Spine/Cube13,Root/ArmboneL,Root/LowerTorsoAccessories/nail_origin_19,Root/NeckAccessories/nail_origin_10/nail_10,Root/LowerArmRAccessories/nail_2",
+		"collapsedPaths": ",Root/UpperArmLAccessories,Root/FemurR/TibiaR,Root/FemurL,Root/origin/Spine/Cube16,Root/UpperFootRAccessories,Root/root/LowerTorso/UpperFootR/LowerFootR/LowerFootRBones2,Root/root/LowerTorso/UpperTorso/UpperArmR,Root/root/LowerTorso/Spine,Root/root/LowerTorso/UpperTorso/UpperArmL,Root/UpperArmLAccessories/nail_7,Root/origin/Spine/FemurR,Root/UpperArmRAccessories/nail_0,Root/UpperArmRAccessories/nail_1,Root/UpperArmLAccessories/nail_6,Root/UpperArmRAccessories/nail_3,Root/origin/Spine,Root/root/LowerTorso/UpperTorso/Neck,Root/root/LowerTorso/UpperFootR/UpperFootR_bones,Root/origin/Spine/FemurL,Root/NeckAccessories/nail_origin_9/nail_9,Root/UpperArmRAccessories/nail_8,Root/root/LowerTorso/UpperTorso/UpperArmR/UpperArmRBones2,Root/origin/Spine/Cube33,Root/UpperTorsoAccessories/nail_5,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0,Root/UpperArmRAccessories,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_1,Root/root/LowerTorso/UT_bones_2,Root/UpperTorsoAccessories/nail_1,Root/origin/Spine/HipboneR,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_ribs_1/UT_bones_10,Root/origin/Spine/HipboneL,Root/FemurR/Cube51,Root/origin/Spine/Cube9,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_2/ShoulderR2,Root/ArmboneL/ForearmL,Root/root/LowerTorso/UpperTorso/UpperArmR/LowerArmR/LowerArmRBones2,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/RibCage,Root/UpperFootRAccessories/nail_origin_16,Root/UpperFootRAccessories/nail_origin_15,Root/UpperFootRAccessories/nail_origin_14,Root/LowerTorsoAccessories/nail_origin_20,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_bones_1,Root/origin/Spine/Cube43,Root/LowerArmRAccessories,Root/origin/Spine/Cube44,Root/origin/Spine/ArmboneR,Root/origin/Spine/ShoulderL,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_bones_3,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_bones_7,Root/origin/Spine/ShoulderR,Root/origin/Spine/ArmboneL,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_bones_5,Root/NeckAccessories/nail_origin_12,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/UT_ribs_0/UT_bones_9,Root/root/LowerTorso/UpperFootL,Root/root/LowerTorso/UpperFootR,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/ShoulderL,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/RibCage2/UT_ribs_2,Root/origin/Spine/Cube10,Root/root/LowerTorso/UpperTorso/UpperTorsoBones/UT_bones_0/ShoulderR,Root/origin/Spine/Cube13,Root/ArmboneL,Root/LowerTorsoAccessories/nail_origin_19,Root/NeckAccessories/nail_origin_10/nail_10,Root/LowerArmRAccessories/nail_2",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -677,9 +677,9 @@
 			"children": [
 				{
 					"name": "nail_8",
-					"from": [ 2.4, 1.8, 2.7 ],
-					"to": [ 2.8, 2.2, 4.7 ],
-					"rotationOrigin": [ 2.4, 1.8, 2.7 ],
+					"from": [ 2.4, 1.4, 2.7 ],
+					"to": [ 2.8, 1.8, 4.7 ],
+					"rotationOrigin": [ 2.4, 1.4, 2.7 ],
 					"rotationX": 110.0,
 					"rotationY": 45.0,
 					"rotationZ": 23.5,
@@ -1315,7 +1315,4 @@
 				}
 			]
 		}
-	],
-	"animations": [
-	]
-}
+	]}

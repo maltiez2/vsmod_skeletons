@@ -16,8 +16,9 @@
 		{
 			"name": "Eyes",
 			"stepParentName": "Head",
-			"from": [ 0.0, 0.0, 0.0 ],
-			"to": [ 0.0, 0.0, 0.0 ],
+			"from": [ 0.0, -0.5, 0.0 ],
+			"to": [ 0.0, -0.5, 0.0 ],
+			"rotationOrigin": [ 0.0, -0.5, 0.0 ],
 			"faces": {
 			},
 			"children": [
@@ -28,12 +29,12 @@
 					"rotationOrigin": [ 1.1, 2.6, 1.0 ],
 					"rotationX": -45.0,
 					"faces": {
-						"north": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"east": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "rotation": 180, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"south": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"west": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"up": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"down": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+						"north": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"east": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#bone-eyes", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 					},
 					"children": [
 						{
@@ -43,12 +44,12 @@
 							"rotationOrigin": [ 0.0, 0.0, 0.7 ],
 							"rotationX": -90.0,
 							"faces": {
-								"north": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"east": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "rotation": 180, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"south": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"west": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"up": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"down": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+								"north": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"east": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#bone-eyes", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 							}
 						},
 						{
@@ -58,12 +59,12 @@
 							"rotationOrigin": [ 0.0, 0.4, 0.7 ],
 							"rotationX": -90.0,
 							"faces": {
-								"north": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"east": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "rotation": 180, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"south": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"west": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"up": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"down": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+								"north": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"east": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#bone-eyes", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 							}
 						}
 					]
@@ -75,12 +76,12 @@
 					"rotationOrigin": [ 1.1, 2.6, 4.0 ],
 					"rotationX": 45.0,
 					"faces": {
-						"north": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"east": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "rotation": 180, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"south": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"west": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"up": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"down": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+						"north": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"east": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#bone-eyes", "uv": [ 2.5, 3.0, 3.0, 3.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 					},
 					"children": [
 						{
@@ -90,12 +91,12 @@
 							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 							"rotationX": 90.0,
 							"faces": {
-								"north": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"east": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "rotation": 180, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"south": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"west": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"up": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"down": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+								"north": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"east": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#bone-eyes", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 							}
 						},
 						{
@@ -105,12 +106,12 @@
 							"rotationOrigin": [ 0.0, 0.3, 0.3 ],
 							"rotationX": 90.0,
 							"faces": {
-								"north": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"east": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "rotation": 180, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"south": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"west": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"up": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"down": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "rotation": 90, "glow": 0, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+								"north": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"east": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#bone-eyes", "uv": [ 3.5, 3.0, 4.0, 3.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 							}
 						}
 					]
