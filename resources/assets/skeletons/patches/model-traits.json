@@ -1,1 +1,34 @@
-﻿[{ "enabled": true, "dependsOn": [{ "modid": "combatoverhaul", "invert": true }], "op": "remove", "file": "skeletons:config/customplayermodels/skeleton.json", "path": "/skeleton/ExtraTraits/5" }]
+﻿[
+  {
+    "enabled": true,
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "op": "add",
+    "file": "skeletons:config/customplayermodels/skeleton.json",
+    "path": "/skeleton/ExtraTraits/-",
+    "value": "skeletons-co-magicboundbones"
+  },
+  {
+    "enabled": true,
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "op": "add",
+    "file": "skeletons:config/customplayermodels/reanimated.json",
+    "path": "/reanimated/ExtraTraits/-",
+    "value": "skeletons-co-magicboundbones"
+  },
+  {
+    "enabled": true,
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "op": "add",
+    "file": "skeletons:config/customplayermodels/possessed.json",
+    "path": "/possessed/ExtraTraits/-",
+    "value": "skeletons-co-possessedbones"
+  },
+  {
+    "enabled": true,
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "op": "add",
+    "file": "skeletons:config/customplayermodels/infected.json",
+    "path": "/infected/ExtraTraits/-",
+    "value": "skeletons-co-infectedbones"
+  }
+]

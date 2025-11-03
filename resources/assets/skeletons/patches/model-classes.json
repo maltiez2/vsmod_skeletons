@@ -3,16 +3,16 @@
     "enabled": true,
     "dependsOn": [{ "modid": "maltiezcrossbows" }],
     "op": "add",
-    "file": "skeletons:config/customplayermodels/skeleton.json",
-    "path": "/skeleton/ExclusiveClasses/-",
+    "file": "skeletons:config/customplayermodels/reanimated.json",
+    "path": "/reanimated/ExclusiveClasses/-",
     "value": "skeletons-crossbowman"
   },
   {
     "enabled": true,
     "dependsOn": [{ "modid": "maltiezcrossbows" }],
     "op": "add",
-    "file": "skeletons:config/customplayermodels/skeleton.json",
-    "path": "/skeleton/AvailableClasses/-",
+    "file": "skeletons:config/customplayermodels/reanimated.json",
+    "path": "/reanimated/AvailableClasses/-",
     "value": "skeletons-crossbowman"
   }
 ]

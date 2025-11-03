@@ -1,40 +1,72 @@
 {
-  "version": 0,
+  "version": 1,
   "patches": {
     "other": {
-      "skeletons:config/customplayermodels/skeleton.json": {
-        "skeleton/ExtraTraits": "(remove_models_traits) ? empty_array : value",
-        "skeleton/AvailableClasses": "(remove_models_traits) ? empty_array : value",
-        "skeleton/SkipClasses": "(remove_models_traits) ? skip_classes : value"
+      "@skeletons:config/customplayermodels/*.json": {
+        "@@*/ExtraTraits": "(remove_models_traits) ? empty_array : value",
+        "@@*/AvailableClasses": "(remove_models_classes) ? empty_array : value",
+        "@@*/SkipClasses": "(remove_models_classes) ? skip_classes : value"
       }
     },
     "number": {
-      "skeletons:config/customplayermodels/skeleton.json": {
-        "skeleton/SizeRange/0": "skeleton_min_size_range",
-        "skeleton/SizeRange/1": "skeleton_max_size_range",
-        "skeleton/ModelSizeFactor": "skeleton_size_factor",
-        "skeleton/MaxCollisionBox/0": "skeleton_max_collision_box_horizontal",
-        "skeleton/MaxCollisionBox/1": "skeleton_max_collision_box_vetrical",
-        "skeleton/MaxEyeHeight": "skeleton_max_eye_height",
-        "skeleton/MinEyeHeight": "skeleton_min_eye_height"
+      "@skeletons:config/customplayermodels/*.json": {
+        "@@*/SizeRange/0": "skeleton_min_size_range",
+        "@@*/SizeRange/1": "skeleton_max_size_range",
+        "@@*/ModelSizeFactor": "skeleton_size_factor",
+        "@@*/MaxCollisionBox/0": "skeleton_max_collision_box_horizontal",
+        "@@*/MaxCollisionBox/1": "skeleton_max_collision_box_vetrical",
+        "@@*/MaxEyeHeight": "skeleton_max_eye_height",
+        "@@*/MinEyeHeight": "skeleton_min_eye_height"
       }
     },
     "boolean": {
-      "skeletons:patches/model-traits.json": {
-        "0/enabled": "not(remove_models_traits)"
+      "@skeletons:config/customplayermodels/*.json": {
+        "@@*/ScaleColliderWithSizeHorizontally": "skeleton_scale_collider_horizontally",
+        "@@*/ScaleColliderWithSizeVertically": "skeleton_scale_collider_vertically",
       },
       "skeletons:config/customplayermodels/skeleton.json": {
-        "skeleton/ScaleColliderWithSizeHorizontally": "skeleton_scale_collider_horizontally",
-        "skeleton/ScaleColliderWithSizeVertically": "skeleton_scale_collider_vertically",
-        "skeleton/Enabled": "enable_skeleton_model"
-      }      
+        "@@*/Enabled": "enable_skeleton_model"
+      },
+      "skeletons:config/customplayermodels/infected.json": {
+        "@@*/Enabled": "enable_infected_model"
+      },
+      "skeletons:config/customplayermodels/possessed.json": {
+        "@@*/Enabled": "enable_possessed_model"
+      },
+      "skeletons:config/customplayermodels/reanimated.json": {
+        "@@*/Enabled": "enable_reanimated_model"
+      }
     }
   },
   "constants": {
     "empty_array": [],
-    "skip_classes": ["skeletons-commoner", "skeletons-archer", "skeletons-crossbowman", "skeletons-spearman", "skeletons-swordsman", "skeletons-smith"]
+    "skip_classes": ["skeletons-commoner", "skeletons-archer", "skeletons-crossbowman", "skeletons-spearman", "skeletons-swordsman", "skeletons-smith", "skeletons-infected-omnivore", "skeletons-infected-carnivore", "skeletons-infected-herbivore", "skeletons-possessed-oathbreaker", "skeletons-possessed-tortured", "skeletons-possessed-burntlive", "skeletons-possessed-traitor", "skeletons-possessed-inventor"]
   },
   "settings": [
+    {
+      "code": "enable_skeleton_model",
+      "type": "boolean",
+      "ingui": "skeletons:setting-enable_skeleton_model",
+      "default": false
+    },
+    {
+      "code": "enable_possessed_model",
+      "type": "boolean",
+      "ingui": "skeletons:setting-enable_possessed_model",
+      "default": true
+    },
+    {
+      "code": "enable_infected_model",
+      "type": "boolean",
+      "ingui": "skeletons:setting-enable_infected_model",
+      "default": true
+    },
+    {
+      "code": "enable_reanimated_model",
+      "type": "boolean",
+      "ingui": "skeletons:setting-enable_reanimated_model",
+      "default": true
+    },
     {
       "code": "remove_models_traits",
       "type": "boolean",
@@ -42,10 +74,10 @@
       "default": false
     },
     {
-      "code": "enable_skeleton_model",
+      "code": "remove_models_classes",
       "type": "boolean",
-      "ingui": "skeletons:setting-enable_skeleton_model",
-      "default": true
+      "ingui": "skeletons:setting-remove_models_classes",
+      "default": false
     },
     {
       "code": "skeleton_min_size_range",

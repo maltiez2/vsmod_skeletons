@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Skeletons</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.4.1</ModVersion>
+    <ModVersion>0.5.0</ModVersion>
     <ModId>skeletons</ModId>
     <Description></Description>
     <Side>universal</Side>
@@ -18,7 +18,7 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <Dependencies Include="playermodellib" Version="1.1.1" />
+    <Dependencies Include="playermodellib" Version="1.5.8" />
   </ItemGroup>
 
   <!-- Project settings -->
@@ -63,6 +63,7 @@
     <Folder Include="resources\assets\skeletons\shapes\parts\jaw\" />
     <Folder Include="resources\assets\skeletons\shapes\parts\eyes\" />
     <Folder Include="resources\assets\skeletons\shapes\parts\accessories\" />
+    <Folder Include="resources\assets\skeletons\textures\hair\" />
   </ItemGroup>
 
   <!-- Formatting JSON files -->

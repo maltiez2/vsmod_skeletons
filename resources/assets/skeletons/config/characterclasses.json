@@ -68,5 +68,61 @@
 			{ "type": "item", "code": "game:clothes-neck-gear-amulet-rusty" },
 			{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" }
 		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-infected-omnivore",
+		"traits": [],
+		"gear": [
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-infected-carnivore",
+		"traits": ["skeletons-infected-naturalhunter", "skeletons-infected-carnivore", "skeletons-terribleforager"],
+		"gear": [
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-infected-herbivore",
+		"traits": ["skeletons-infected-naturalforager", "skeletons-infected-herbivore", "skeletons-terriblehunter"],
+		"gear": [
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-possessed-oathbreaker",
+		"traits": [],
+		"gear": [
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-possessed-tortured",
+		"traits": ["skeletons-possessed-tortured", "skeletons-possessed-hatred"],
+		"gear": [
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-possessed-burntlive",
+		"traits": ["skeletons-possessed-burntalive", "skeletons-possessed-hatred"],
+		"gear": [
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-possessed-traitor",
+		"traits": ["skeletons-possessed-guilt", "skeletons-soldier", "skeletons-scout", "improviser"],
+		"gear": [
+		]
+	},
+	{
+		"enabled": true,
+		"code": "skeletons-possessed-inventor",
+		"traits": ["skeletons-possessed-guilt", "skeletons-civil", "bowyer", "tinkerer", "technical", "clothier"],
+		"gear": [
+		]
 	}
 ]

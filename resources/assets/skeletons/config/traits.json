@@ -3,14 +3,69 @@
 		"code": "skeletons-fragile",
 		"type": "negative",
 		"attributes": {
-			"maxhealthExtraPoints": -8.0
+			"maxhealthExtraPoints": -5.0,
+			"bluntDamageFactor": 0.5
+		}
+	},
+	{
+		"code": "skeletons-unstable",
+		"type": "negative",
+		"attributes": {
+			"temporalStabilityOffset": -0.00002,
+			"temporalStabilityDropRate": -0.99,
+			"temporalStabilityRecoveryRate": -1
+		}
+	},
+	{
+		"code": "skeletons-ghostly",
+		"type": "positive",
+		"attributes": {
+			"saturationLossFactor": -1,
+			"breathType": 1,
+			"warmthBonus": 40
+		}
+	},
+	{
+		"code": "skeletons-cantswim",
+		"type": "negative",
+		"attributes": {
+			"canSwim": -1,
+			"buoyancyFactor": -1
+		}
+	},
+	{
+		"code": "skeletons-barebones",
+		"type": "positive",
+		"attributes": {
+			"poisonDamageFactor": -1,
+			"frostDamageFactor": -0.95,
+			"fireDamageFactor": -0.95
+		}
+	},
+	{
+		"code": "skeletons-stable",
+		"type": "positive",
+		"attributes": {
+			"temporalStabilityOffset": 0.0016,
+			"temporalStabilityDropRate": -0.99
 		}
 	},
 	{
 		"code": "skeletons-magicsustenance",
 		"type": "positive",
 		"attributes": {
-			"hungerrate": -0.9
+			"saturationLossFactor": -0.9,
+			"warmthBonus": 10,
+			"breathType": 1
+		}
+	},
+	{
+		"code": "skeletons-weakbinding",
+		"type": "negative",
+		"attributes": {
+			"walkspeed": -0.1,
+			"sprintSpeed":  -0.1,
+			"armorWalkSpeedAffectedness": 0.6
 		}
 	},
 	{
@@ -18,8 +73,26 @@
 		"type": "mixed",
 		"attributes": {
 			"walkspeed": 0.2,
-			"armorWalkSpeedAffectedness": 0.3,
+			"armorWalkSpeedAffectedness": 1.2,
 			"jumpHeightMul": 0.25
+		}
+	},
+	{
+		"code": "skeletons-heavybones",
+		"type": "mixed",
+		"attributes": {
+			"walkspeed": -0.2,
+			"armorWalkSpeedAffectedness": -0.6,
+			"jumpHeightMul": -0.1,
+			"bluntDamageFactor": -0.3
+		}
+	},
+	{
+		"code": "skeletons-parasitic",
+		"type": "mixed",
+		"attributes": {
+			"maxSaturationFactor": -0.5,
+			"nutritionFactor": 0.5
 		}
 	},
 	{
@@ -56,7 +129,7 @@
 			"rangedWeaponsDamage": 0.3,
 			"meleeWeaponsDamage": 0.3,
 			"armorDurabilityLoss": 0.2,
-			"armorWalkSpeedAffectedness": 0.2
+			"armorWalkSpeedAffectedness": 0.4
 		}
 	},
 	{
@@ -65,7 +138,7 @@
 		"attributes": {
 			"meleeWeaponsDamage": 0.45,
 			"armorDurabilityLoss": -0.2,
-			"armorWalkSpeedAffectedness": -0.2,
+			"armorWalkSpeedAffectedness": -0.4,
 			"rangedWeaponsDamage": -0.4
 		}
 	},
@@ -81,10 +154,125 @@
 		}
 	},
 	{
-		"code": "skeletons-co-magicbindedbones",
+		"code": "skeletons-co-archer",
 		"type": "mixed",
 		"attributes": {
-			"manipulationSpeed": 0.3,
+			"bowsProficiency": 0.6,
+			"crossbowsProficiency": -0.3,
+			"steadyAim": 0.5,
+			"meleeWeaponsDamage": -0.2
+		}
+	},
+	{
+		"code": "skeletons-infected-naturalhunter",
+		"type": "positive",
+		"attributes": {
+			"animalLootDropRate": 0.5,
+			"animalHarvestingTime": -0.5,
+			"animalSeekingRange": -0.5
+		}
+	},
+	{
+		"code": "skeletons-infected-carnivore",
+		"type": "mixed",
+		"attributes": {
+			"proteinNutritionFactor": 1.0,
+			"fruitNutritionFactor": -0.9,
+			"vegetableNutritionFactor": -0.9,
+			"grainNutritionFactor": -0.9,
+			"dairyNutritionFactor": -0.5
+		}
+	},
+	{
+		"code": "skeletons-infected-naturalforager",
+		"type": "positive",
+		"attributes": {
+			"forageDropRate": 0.5,
+			"wildCropDropRate": 0.5
+		}
+	},
+	{
+		"code": "skeletons-infected-herbivore",
+		"type": "mixed",
+		"attributes": {
+			"proteinNutritionFactor": -0.9,
+			"fruitNutritionFactor": 1.0,
+			"vegetableNutritionFactor": 1.0,
+			"grainNutritionFactor": 0.3,
+			"dairyNutritionFactor": -0.5
+		}
+	},
+	{
+		"code": "skeletons-possessed-burntalive",
+		"type": "mixed",
+		"attributes": {
+			"fireDamageFactor": 3,
+			"healingReceivedFactor": -0.95,
+			"slashingDamageFactor": -0.3,
+			"piercingDamageFactor": -0.3,
+			"bluntDamageFactor": -0.3
+		}
+	},
+	{
+		"code": "skeletons-possessed-tortured",
+		"type": "negative",
+		"attributes": {
+			"walkspeed": -0.2,
+			"damageReceivedFactor": 0.3,
+			"maxhealthExtraPoints": -2
+		}
+	},
+	{
+		"code": "skeletons-possessed-hatred",
+		"type": "mixed",
+		"attributes": {
+			"meleeWeaponsDamage": 0.5,
+			"sprintSpeed": 0.5,
+			"backwardSpeed": -0.5
+		}
+	},
+	{
+		"code": "skeletons-possessed-guilt",
+		"type": "mixed",
+		"attributes": {
+			"rangedWeaponsDamage": 0.3,
+			"sneakSpeed": 0.3,
+			"backwardSpeed": -0.5
+		}
+	},
+	{
+		"code": "skeletons-soldier",
+		"type": "mixed",
+		"attributes": {
+			"animalLootDropRate": -0.3,
+			"animalHarvestingTime": 0.3,
+			"animalSeekingRange": 0.3,
+			"armorDurabilityLoss": -0.3,
+			"armorWalkSpeedAffectedness": -0.6
+		}
+	},
+	{
+		"code": "skeletons-scout",
+		"type": "mixed",
+		"attributes": {
+			"walkspeed": 0.1,
+			"animalSeekingRange": -0.5,
+			"nightWalkSpeed": 0.1
+		}
+	},
+	{
+		"code": "skeletons-civil",
+		"type": "negative",
+		"attributes": {
+			"meleeWeaponsDamage": -0.3,
+			"armorWalkSpeedAffectedness": 0.6
+		}
+	},
+	{
+		"code": "skeletons-co-magicboundbones",
+		"type": "mixed",
+		"attributes": {
+			"manipulationSpeed": 0.2,
 			"playerFaceDamageFactor": -0.84,
 			"playerHeadDamageFactor": -0.5,
 			"playerNeckDamageFactor": 0.5,
@@ -95,13 +283,31 @@
 		}
 	},
 	{
-		"code": "skeletons-co-archer",
+		"code": "skeletons-co-possessedbones",
 		"type": "mixed",
 		"attributes": {
-			"bowsProficiency": 0.6,
-			"crossbowsProficiency": -0.3,
-			"steadyAim": 0.5,
-			"meleeWeaponsDamage": -0.2
+			"manipulationSpeed": -0.1,
+			"playerFaceDamageFactor": 1.0,
+			"playerHeadDamageFactor": 1.0,
+			"playerNeckDamageFactor": 1.0,
+			"playerTorsoDamageFactor": -0.5,
+			"playerArmsDamageFactor": -0.8,
+			"playerHandsDamageFactor": -0.8,
+			"playerLegsDamageFactor": -0.8,
+			"playerFeetDamageFactor": -0.8
+		}
+	},
+	{
+		"code": "skeletons-co-infectedbones",
+		"type": "mixed",
+		"attributes": {
+			"playerFaceDamageFactor": -0.84,
+			"playerHeadDamageFactor": -0.5,
+			"playerNeckDamageFactor": -0.5,
+			"playerArmsDamageFactor": 1.0,
+			"playerHandsDamageFactor": 1.0,
+			"playerLegsDamageFactor": 1.0,
+			"playerFeetDamageFactor": 1.0
 		}
 	},
 	{
@@ -120,7 +326,7 @@
 		"attributes": {
 			"spearsProficiency": 0.4,
 			"javelinsProficiency": 0.4,
-			"armorWalkSpeedAffectedness": 0.1,
+			"armorWalkSpeedAffectedness": 0.4,
 			"oneHandedSwordsProficiency": -0.2,
 			"twoHandedSwordsProficiency": -0.2,
 			"steadyAim": -0.3
@@ -135,7 +341,7 @@
 			"spearsProficiency": -0.2,
 			"javelinsProficiency": -0.2,
 			"armorDurabilityLoss": -0.1,
-			"armorWalkSpeedAffectedness": -0.2,
+			"armorWalkSpeedAffectedness": -0.4,
 			"steadyAim": -0.3
 		}
 	},
