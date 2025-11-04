@@ -149,13 +149,15 @@
 					{ "code": "11"},
 					{ "code": "15"},
 					{ "code": "16"},
+					{ "code": "17"},
 					{ "code": "7noglow"},
 					{ "code": "8noglow"},
 					{ "code": "9noglow"},
 					{ "code": "10noglow"},
 					{ "code": "11noglow"},
 					{ "code": "15noglow"},
-					{ "code": "16noglow"}
+					{ "code": "16noglow"},
+					{ "code": "17noglow"}
 				]
 			},
 			{
