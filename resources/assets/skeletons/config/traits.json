@@ -22,6 +22,7 @@
 		"attributes": {
 			"saturationLossFactor": -1,
 			"breathType": 1,
+			"damageReceivedFactor": -0.5,
 			"warmthBonus": 40
 		}
 	},

@@ -26,7 +26,7 @@
 				"type": "texture", 
 				"textureTarget": "bone-main",
 				"targetSkinParts": ["base", "skeleton-skull", "skeleton-ribcage", "skeleton-jaw", "skeleton-accessories"],
-				"overlayTexture": false,
+				"overlayTexture": true,
 				"textureTemplate": "skeletons:bone/variant-{code}",
 				"variants": [
 					{ "code": "0" },
@@ -59,7 +59,7 @@
 				"type": "texture", 
 				"textureTarget": "bone-skull-inside",
 				"targetSkinParts": ["base", "skeleton-skull", "skeleton-ribcage", "skeleton-jaw"],
-				"overlayTexture": false,
+				"overlayTexture": true,
 				"textureTemplate": "skeletons:bone/variant-{code}",
 				"variants": [
 					{ "code": "0" },

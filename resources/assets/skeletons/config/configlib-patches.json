@@ -22,7 +22,7 @@
     "boolean": {
       "@skeletons:config/customplayermodels/*.json": {
         "@@*/ScaleColliderWithSizeHorizontally": "skeleton_scale_collider_horizontally",
-        "@@*/ScaleColliderWithSizeVertically": "skeleton_scale_collider_vertically",
+        "@@*/ScaleColliderWithSizeVertically": "skeleton_scale_collider_vertically"
       },
       "skeletons:config/customplayermodels/skeleton.json": {
         "@@*/Enabled": "enable_skeleton_model"

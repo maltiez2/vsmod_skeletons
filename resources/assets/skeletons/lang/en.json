@@ -225,7 +225,7 @@
   "game:trait-skeletons-co-smith": "<font color=\"#eeee84\">• Smith</font> ",
   "game:trait-skeletons-unstable": "<font color=\"#ff8484\">• Unstable</font> ",
   "game:trait-skeletons-ghostly": "<font color=\"#84ff84\">• Ghostly</font> ",
-  "game:trait-skeletons-cantswim": "<font color=\"#ff8484\">• Cant swim</font> ",
+  "game:trait-skeletons-cantswim": "<font color=\"#ff8484\">• Can't swim</font> ",
   "game:trait-skeletons-barebones": "<font color=\"#84ff84\">• Bare bones</font> ",
   "game:trait-skeletons-stable": "<font color=\"#84ff84\">• Stable</font> ",
   "game:trait-skeletons-weakbinding": "<font color=\"#ff8484\">• Weak binding</font> ",
@@ -321,8 +321,8 @@
   "game:charattribute-temporalStabilityRecoveryRate--1": "cant recover temporal stability naturally",
   "game:charattribute-saturationLossFactor--0.9": "-90% saturation loss speed",
   "game:charattribute-saturationLossFactor--1": "does not loose saturation",
-  "game:charattribute-canSwim--1": "cant swim",
-  "game:charattribute-buoyancyFactor--1": "cant float",
+  "game:charattribute-canSwim--1": "can't swim",
+  "game:charattribute-buoyancyFactor--1": "can't float",
   "game:charattribute-poisonDamageFactor--1": "-100% poison damage received",
   "game:charattribute-frostDamageFactor--0.95": "-95% frost damage received",
   "game:charattribute-fireDamageFactor--0.95": "-95% fire damage received",
@@ -375,6 +375,9 @@
   "game:charattribute-playerFeetDamageFactor--0.8": "-80% damage received to feet",
   "game:charattribute-playerFeetDamageFactor-1": "+100% damage received to feet",
   "game:charattribute-playerTorsoDamageFactor--0.5": "-50% damage received to torso",
+  
+  "game:charattribute-damageReceivedFactor": "{0:P0} all damage received",
+
 
   "setting-enable_skeleton_model": "Enable generic skeleton model",
   "setting-enable_possessed_model": "Enable possessed skeleton model",
