@@ -1,6 +1,6 @@
 ﻿[
   { "dependsOn": [{ "modid": "hydrateordiedrate" }], "file": "skeletons:config/traits", "op": "add", "path": "/2/attributes/HoD:ThirstRateMul", "value": "-1.0" },
   { "dependsOn": [{ "modid": "hydrateordiedrate" }], "file": "skeletons:config/traits", "op": "add", "path": "/2/attributes/HoD:CoolingMul", "value": "100.0" },
-  { "dependsOn": [{ "modid": "hydrateordiedrate" }], "file": "skeletons:config/traits", "op": "add", "path": "/6/attributes/HoD:ThirstRateMul", "value": "0.9" },
+  { "dependsOn": [{ "modid": "hydrateordiedrate" }], "file": "skeletons:config/traits", "op": "add", "path": "/6/attributes/HoD:ThirstRateMul", "value": "-0.9" },
   { "dependsOn": [{ "modid": "hydrateordiedrate" }], "file": "skeletons:config/traits", "op": "add", "path": "/6/attributes/HoD:CoolingMul", "value": "2.0" }
 ]
