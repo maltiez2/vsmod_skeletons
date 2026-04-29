@@ -17,7 +17,7 @@
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
 			{ "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
-			{ "type": "item", "code": "game:clothes-upperbody-raw-hide-mantle" },
+			{ "type": "item", "code": "game:clothes-upperbody-rawhidemantle" },
 			{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
 			{ "type": "item", "code": "game:clothes-neck-marketeer" },
 			{ "type": "item", "code": "game:clothes-waist-linen-rope" }
